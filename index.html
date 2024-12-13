@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scented Bliss - Магазин Парфюмерии</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+            box-sizing: border-box;
+            background-color: #f0f8ff;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            align-items: center;
+            text-align: center;
+        }
+
+        .header {
+            background-color: #4a235a;
+            color: white;
+            width: 100%;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            flex: 1;
+            width: 90%;
+            padding: 20px;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .box {
+            background-color: #e6f2ff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            flex: 1;
+            text-align: left;
+        }
+
+        .box img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .box h3 {
+            font-size: 18px;
+            color: #4a235a;
+            margin-bottom: 10px;
+        }
+
+        .box p {
+            color: #333;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .footer {
+            background-color: #4a235a;
+            color: white;
+            width: 100%;
+            padding: 20px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #4a235a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #4a235a; 
+            color: white; 
+        }
+
+
+        .button a {
+            color: white; 
+            text-decoration: none; 
+            display: block;
+        }
+
+        .button a:hover {
+            color: white;
+        }
+
+        .text-area {
+            display: block; 
+            background-color: #4a235a; 
+            color: white; 
+            padding: 5px; 
+            text-align: center; 
+            margin-bottom: 10px; 
+            border-radius: 5px; 
+            margin-top: 10px; 
+            cursor: pointer; 
+            text-decoration: none; 
+        }
+        .text-area:hover {
+            background-color: #5c2a6b; 
+            color: white; 
+        }
+        .text-area a {
+            color: white;
+            text-decoration: none;
+        }    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            Dior - Парфюмерия
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkKq782pOiMIYlMMQ1CSpZRnin5Si-qXODtQ&s" alt="Цветочный парфюм">
+                <h3>Cладкие ароматы</h3>
+                <p>
+                    Будь то сельская местность, напоенная теплыми ароматами земли, или же умиротворяющее спокойствие прованских вод — коллекция средств для мужчин перенесет вас туда, куда вы захотите. В нашу мужскую коллекцию входят ароматы, средства по уходу за кожей, продукция для ванны и душа, а также средства для идеального бритья.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQf-6RIJvbrSKs8aSxezwXJWpC45uQCj0XxpTKJzMmbTGRMhsiMVmPzFNvpe7Y-5S3dQw&usqp=CAU" alt="Роскошный парфюм">
+                <h3>Роскошные ароматы</h3>
+                <p>
+                    Погрузитесь в мир роскошных ароматов с нашей коллекцией, созданной для тех, кто ищет утонченные и элегантные запахи.Идеально подходит для особых случаев и для того, чтобы подчеркнуть вашу индивидуальность.
+                </p>
+            </div>
+
+            <div class="box">
+                <div class="buttons">
+                    <a href="https://www.fragrantica.ru/perfume/Chanel/Allure-Homme-Sport-607.html" class="button">Chanel №5</a>
+                    <a href="https://www.dior.com/ru_ru/beauty/mens-fragrance" class="button">Dior J'adore</a>
+                    <a href="https://www.spellsmell.ru/men/lancome/" class="button">Lancome La Vie Est Belle</a>
+                    <a href="https://viled.kz/men/brands/2949?srsltid=AfmBOoqEDW6sMzDqD2IMsfawbzES-r_DnGWxbFDM7eGOBmEC5M-LJcNJ" class="button">Yves Saint Laurent</a>
+                </div>
+
+                <div class="text-area">
+                    <a href="https://www.monamie.kz/catalog/parfyumeriya/dlya_nee_1/zhenskie_aromaty/valentino_donna_born_in_roma_yellow_dream_parfyumirovannaya_voda_id105270/" class="text-area">Valentino Yellow</a>
+                </div>
+            
+                <div class="text">
+                    <p>
+                        Ненавязчивый аромат, который подойдет даже для самой строгой работы. Спокойный, умеренный, не яркий и практически незаметный. Ассоциируется с чистым бельем, которое сушили на морозном воздухе и только-только занесли в дом.
+                    </p>
+                    <p>
+                        Macé и Violaine Colas, является признанием в любви и благодарностью за вдохновение легендарному итальянскому городу. Туалетная вода раскрывается необыкновенным, чувственным звучанием восточных, древесных и пряных аккордов. Парфюм помещен в традиционный брендовый многогранный флакон, который передает красоту римской архитектуры.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Адрес: 123 Толе Би улица, Алматы | Контакт: +7 (775) 123-4567 | Email: info@scentedbliss.com
+        </div>
+    </div>
+</body>
+</html>
